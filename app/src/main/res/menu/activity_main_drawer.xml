@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action"
+            android:icon="@drawable/ic_action"
+            android:title="@string/menu_action" />
+        <item
+            android:id="@+id/adventure"
+            android:icon="@drawable/ic_adventure"
+            android:title="@string/menu_adventure" />
+        <item
+            android:id="@+id/fantasy"
+            android:icon="@drawable/ic_fantasy"
+            android:title="@string/menu_Fantasy" />
+        <item
+            android:id="@+id/drama"
+            android:icon="@drawable/ic_drama"
+            android:title="@string/menu_drama" />
+        <item
+            android:id="@+id/quit"
+            android:icon="@drawable/ic_quit"
+            android:title="@string/menu_quit" />
+    </group>
+
+
+</menu>

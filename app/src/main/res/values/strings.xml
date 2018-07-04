@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BookShop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_action">Action</string>
+    <string name="menu_adventure">Adventure</string>
+    <string name="menu_drama">Drama</string>
+    <string name="menu_Fantasy">Fantasy</string>
+    <string name="menu_quit">Quit</string>
+    <string name="image_description">Image book</string>
+    <string name="zero">0</string>
+    <string name="availible">Availible: </string>
+    <string name="price">Price: </string>
+    <string name="very_big_amount_books">Sorry, very big amount books or you nothing buy</string>
+    <string name="success">Success!</string>
+    <string name="invoice">Your invoice.</string>
+    <string name="not_network">No network</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="praise">"It's beautifully!"</string>
+    <string name="empty_count">You forgot to enter the number of books</string>
+    <string name="buy">Buy books</string>
+</resources>

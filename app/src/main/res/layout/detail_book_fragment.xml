@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/detail_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/image_description" />
+
+        <TextView
+            android:id="@+id/detail_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorText"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_author_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/detail_count_edit_text"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="@string/zero"
+
+                android:inputType="number" />
+
+
+            <Button
+                android:id="@+id/detail_buy_button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/circle_button"
+                android:backgroundTint="@color/fbutton_color_wisteria"
+                android:text="@string/buy"
+                android:textColor="@color/fbutton_color_clouds" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="2"
+                android:text="@string/availible"
+                android:textColor="@color/colorText"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/detail_amount_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="@color/colorText"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="2"
+                android:text="@string/price"
+                android:textColor="@color/colorText"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/detail_price_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="@color/colorText"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
